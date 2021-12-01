@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" style="-fx-background-color: #0f241c;" xmlns="http://javafx.com/javafx/1.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.macolt.Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="150.0" layoutY="14.0" prefHeight="40.0" prefWidth="200.0" text="MAC for OLT" textAlignment="CENTER" textFill="#49b68e">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="actionButton" alignment="CENTER" layoutX="190.0" layoutY="170.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="120.0" style="-fx-background-color: #1a4233;" text="ТЫЦЬ" textFill="#0f241c">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="inMac" alignment="CENTER" layoutX="100.0" layoutY="84.0" prefHeight="46.0" prefWidth="300.0" promptText="AA:BB:CC:DD:EE:FF">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="outMac" alignment="CENTER" layoutX="100.0" layoutY="270.0" prefHeight="46.0" prefWidth="300.0" promptText="AABB.CCDD.EEFF">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
